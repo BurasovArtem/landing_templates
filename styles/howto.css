@@ -1,0 +1,51 @@
+#howto {
+	background-color: rgba(0,0,0,0);
+}
+
+#howto .content {
+	display: table;
+	height: 100%;
+	background-image: url(images/filler.jpg);
+	background-position: center;
+}
+
+#howto .content .howto-container {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#howto .content .howto-container table {
+	border-spacing: 50px 15px;
+	table-layout: fixed;
+	background-color: green;
+	margin: 20px 0px;
+}
+
+#howto .content .howto-container table th {
+	font-family: EVOLVE;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+#howto .content .howto-container table .step-card {
+	width: 100%;
+}
+
+#howto .content .howto-container table .step-card .card-num {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	background-color: red;
+}
+
+#howto .content .howto-container table .step-card .card-title {
+	font-weight: bold;
+	text-align: left;
+	margin: 10px 0px;
+}
+
+#howto .content .howto-container table .step-card .card-description {
+	text-align: left;
+	margin: 10px 0px;
+}

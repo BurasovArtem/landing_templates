@@ -1,11 +1,46 @@
+:root {
+	--header-height: 70px;
+}
+
+@font-face {
+    font-family: EVOLVE;
+    src: url("fonts/evolve.otf");
+}
+
 * {
 	margin: 0px;
 	padding: 0px;
+	font-family: 'Roboto', sans-serif;
 }
+
+body {
+	background-image: url('images/white-cubes.png');
+}
+
+a {
+	text-decoration: none;
+}
+
 .page {
 	width: 100%;
-	height: calc(100vh - var(--header-height))
+	height: calc(100vh - var(--header-height));
 }
 .page:first-of-type {
 	height: 100vh;
+}
+
+.content {
+	width: 1000px;
+	height: 100%;
+	margin: 0px auto;
+	left: calc(50% - 500px);
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	padding: 15px 30px;
+	border-radius: 30px;
+	background-color: yellow;
+	color: black;
 }

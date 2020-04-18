@@ -1,0 +1,41 @@
+#about {
+	background-color: rgba(0,0,0,0);
+}
+
+#about .content {
+	display: table;
+	height: 100%;
+	background-image: url(images/filler.jpg);
+	background-position: center;
+}
+#about .description {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+#about .description-content {
+	display: table; 
+	width: 100%;
+	border-spacing: 50px 15px;
+	table-layout: fixed;
+}
+#about .description-content .row {display: table-row;}
+
+#about .content .description .what  {background-image: url(images/card_01.jpg);}
+#about .content .description .where {background-image: url(images/card_02.jpg);}
+#about .content .description .who   {background-image: url(images/card_03.jpg);}
+#about .content .description .how   {background-image: url(images/card_04.jpg);}
+
+#about .content .description .description-text, #about .content .description .description-image {
+	display: table-cell;
+	vertical-align: middle;
+}
+#about .content .description .description-image {
+	height: 200px;
+	background-size: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+#about .content .description .description-text {
+	background-color: green;
+}
