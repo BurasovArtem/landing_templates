@@ -1,0 +1,11 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.page {
+	width: 100%;
+	height: calc(100vh - var(--header-height))
+}
+.page:first-of-type {
+	height: 100vh;
+}

@@ -1,0 +1,25 @@
+:root {
+	--header-height: 70px;
+}
+
+header {
+	position: fixed;
+	height: var(--header-height);
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0);
+	transition: .5s linear;
+}
+	header.green {
+		background-color: green;
+	}
+header ul {
+	list-style-type: none;
+}
+header ul li {
+	display: inline-block;
+	height: var(--header-height);
+	line-height: var(--header-height);
+	padding: 0 20px;
+}
