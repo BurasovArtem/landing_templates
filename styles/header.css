@@ -6,9 +6,10 @@ header {
 	left: 0px;
 	background-color: rgba(0,0,0,0);
 	transition: 1.5s cubic-bezier(.03,.74,.26,.84);
+	z-index: 2;
 }
 	header.green {
-		background-color: #89FFD7;
+		background-color: #02ACC9;
 	}
 header ul {
 	list-style-type: none;
@@ -22,5 +23,5 @@ header ul li {
 }
 
 header ul li a {
-	color: white;
+	color: black;
 }

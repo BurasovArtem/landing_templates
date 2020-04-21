@@ -5,37 +5,66 @@
 #about .content {
 	display: table;
 	height: 100%;
-	background-image: url(images/filler.jpg);
+	background-image: url(images/about_bg.png);
+	background-color: white;
 	background-position: center;
 }
 #about .description {
 	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
+
 }
 #about .description-content {
 	display: table; 
 	width: 100%;
-	border-spacing: 50px 15px;
+	border-spacing: 50px 10px;
 	table-layout: fixed;
 }
-#about .description-content .row {display: table-row;}
-
-#about .content .description .what  {background-image: url(images/card_01.jpg);}
-#about .content .description .where {background-image: url(images/card_02.jpg);}
-#about .content .description .who   {background-image: url(images/card_03.jpg);}
-#about .content .description .how   {background-image: url(images/card_04.jpg);}
-
-#about .content .description .description-text, #about .content .description .description-image {
-	display: table-cell;
-	vertical-align: middle;
+#about .description-content .row {
+	display: table-row;
+	width: 30%;
 }
+
+#about .content .description .description-block, #about .content .description .description-image {
+	display: table-cell;
+}
+
 #about .content .description .description-image {
-	height: 200px;
-	background-size: 100%;
+	background-image: url('./images/film.png');
+	background-repeat: no-repeat;
+	background-size: 500px 250px;
 	display: table-cell;
 	vertical-align: middle;
 }
-#about .content .description .description-text {
-	background-color: green;
+#about .content .description .description-block:nth-child(odd) {
+	background-color: white;
+	text-align: left;
+	border: 4px solid #012A38;
+}
+
+#about .content .description .description-block {
+	background-color: white;
+	text-align: left;
+	border: 4px solid #012A38;
+}
+
+.description-title {
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	line-height: 250px;
+}
+
+.description-text {
+	font-size: 20px;
+	margin: 20px;
+}
+
+#about .button {
+	background-color: #02ACC9;
+}
+
+#about .button:hover {
+	background-color: #FF7100;
 }

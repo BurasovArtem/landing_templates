@@ -5,30 +5,44 @@
 #schel .content {
 	display: table;
 	height: 100%;
-	background-image: url(images/filler.jpg);
+	background-color: #FF7100;
 	background-position: center;
 }
 
-#schel .content .schedule-container {
-	display: table-cell;
-	vertical-align: middle;
-}
+
 
 #schel .content .schedule-container table {
 	border-spacing: 50px 15px;
 	table-layout: fixed;
-	background-color: green;
 	margin: 20px 0px;
 }
 
 #schel .content .schedule-container table th {
-	font-family: EVOLVE;
+	font-family: 'PressStart2PRegular';
 	font-size: 50px;
 	text-transform: uppercase;
+	color: white;
+	padding-bottom: 100px;
 }
 #schel .content .schedule-container table .schedule-date {
-	background-color: red;
+	background-color: #6DC36C;
 	height: 100px;
 	font-size: 25px;
 	font-weight: bold;
+	border-radius: 20px 20px 0 0;
+}
+
+#schel .content .schedule-container .button {
+	background-color: #02ACC9;
+	margin-top: 50px;
+}
+
+#schel .content .schedule-container .button:hover {
+	background-color: #9E46AC;
+}
+
+#schel .content .schedule-container table .schedule-description {
+	background-color: #9E46AC;
+	padding: 20px;
+	border-radius: 0 0 20px 20px;
 }

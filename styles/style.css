@@ -19,6 +19,7 @@ body {
 
 a {
 	text-decoration: none;
+	color: white;
 }
 
 .page {
@@ -30,7 +31,7 @@ a {
 }
 
 .content {
-	width: 1000px;
+	width: 1200px;
 	height: 100%;
 	margin: 0px auto;
 	left: calc(50% - 500px);
@@ -40,7 +41,11 @@ a {
 .button {
 	display: inline-block;
 	padding: 15px 30px;
-	border-radius: 30px;
-	background-color: yellow;
-	color: black;
+	background-color: #FF7100;
+	width: 50%;
+	height: 25px;
+}
+
+.button:hover {
+	background-color: #02ACC9;
 }

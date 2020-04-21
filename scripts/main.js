@@ -19,8 +19,10 @@ $(document).ready(function(){
 })
 
 function switchHeader() {
-	if ($(window).scrollTop() > 50) 
+	if ($(window).scrollTop() > 50) {
 		$('header').addClass('green');
-	else 
+	}
+	else {
 		$('header').removeClass('green');
+	}
 }

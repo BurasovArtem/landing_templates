@@ -5,7 +5,7 @@
 #links .content {
 	display: table;
 	height: 100%;
-	background-image: url(images/filler.jpg);
+	background-color: #6DC36C;
 	background-position: center;
 }
 #links .content .links-content {
@@ -14,10 +14,12 @@
 }
 
 #links .content .link-img {
-	width: 300px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	display: inline-block;
 	background-size: 100%;
+	margin: 30px;
+	background-repeat: no-repeat;
 }
 
 #links .content .p1 {background-image: url(images/partner_01.jpg);}
