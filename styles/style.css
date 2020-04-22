@@ -1,5 +1,6 @@
 :root {
 	--header-height: 70px;
+	--reg-button-h: 100px;
 }
 
 @font-face {
@@ -39,38 +40,60 @@ a {
 }
 
 .button {
-	padding: 10px;
 	display: inline-block;
-	background-color: #FF7100;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	background-size: 60%;
-	background-repeat: no-repeat;
-	background-position: center;
+	width: var(--reg-button-h);
+	height: var(--reg-button-h);
+	border-radius: calc(var(--reg-button-h) / 2);
 	cursor: pointer;
-	background-image: url(images/play-arrow.png);
-	transition: border-radius 1s, width 1s, height 1s;
+	transition: 1s;
+	position: relative;
 }
+
+	.button:before, .button:after {
+		content: "";
+		height: var(--reg-button-h);
+		width: var(--reg-button-h);
+		position: absolute;
+		opacity: 1;
+		transition: 1s;
+	}
+	.button:before {
+		top: 0px;
+		left: 0px;
+		border-radius: 50%;
+		background-color: #FF7100;
+	}
+	.button:after {
+		top: 0px;
+		right: 0px;
+		background-image: url(images/play-arrow.png);
+		background-size: 60%;
+		background-repeat: no-repeat;
+		background-position: 65% 50%;
+	}
 
 .button-text {
 	text-align: center;
-	line-height: 100px;
+	height: var(--reg-button-h);
+	line-height: var(--reg-button-h);
+	width: var(--reg-button-h);
+	border-radius: calc(var(--reg-button-h) / 2)
 	font-size: 20px;
-	opacity: 0;
-	transition: opacity 1s, height 1s, font-size 1s;
+	transition: 1s;
 }
 
 .button:hover {
 	background-color: #02ACC9;
-	border-radius: 10px;
-	width: 200px;
-	height: 60px;
+	width: 300px;
+	height: var(--reg-button-h);
 	background-image: url();
+}
+.button:hover:before, .button:hover:after {
+	opacity: 0;
 }
 
 .button:hover .button-text {
-	line-height: 60px;
+	line-height: var(--reg-button-h);
+	width: 300px;
 	font-size: 25px;
-	opacity: 1;
 }
