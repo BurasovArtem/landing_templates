@@ -9,7 +9,10 @@ header {
 	z-index: 2;
 }
 	header.green {
-		background-color: #02ACC9;
+		background-color: #FF7100;
+	}
+	header.green a {
+		color: white;
 	}
 header ul {
 	list-style-type: none;

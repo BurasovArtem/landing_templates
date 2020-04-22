@@ -66,11 +66,3 @@
 	font-size: 20px;
 	margin: 20px;
 }
-
-#about .button {
-	background-color: #02ACC9;
-}
-
-#about .button:hover {
-	background-color: #FF7100;
-}
