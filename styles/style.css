@@ -83,7 +83,7 @@ a {
 }
 
 .button:hover {
-	background-color: #02ACC9;
+	background-color: #FF7100;
 	width: 300px;
 	height: var(--reg-button-h);
 	background-image: url();
