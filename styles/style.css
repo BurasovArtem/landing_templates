@@ -45,13 +45,32 @@ a {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	background-image: url(images/play-arrow.png);
 	background-size: 60%;
 	background-repeat: no-repeat;
 	background-position: center;
 	cursor: pointer;
+	background-image: url(images/play-arrow.png);
+	transition: border-radius 1s, width 1s, height 1s;
+}
+
+.button-text {
+	text-align: center;
+	line-height: 100px;
+	font-size: 20px;
+	opacity: 0;
+	transition: opacity 1s, height 1s, font-size 1s;
 }
 
 .button:hover {
 	background-color: #02ACC9;
+	border-radius: 10px;
+	width: 200px;
+	height: 60px;
+	background-image: url();
+}
+
+.button:hover .button-text {
+	line-height: 60px;
+	font-size: 25px;
+	opacity: 1;
 }
