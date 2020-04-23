@@ -13,8 +13,11 @@ $(document).ready(function(){
 
 	//thx to: https://webkab.ru/prokrutka-stranicy-jquery-uznat-polozhenie/
 	//thx to: https://qna.habr.com/q/215411
+	//https://webkab.ru/dejstvie-pri-poyavlenii-elementa-na-ekrane-jquery/
+	var windowHeight = $(window).height();
+
 	$(window).on("scroll", function() {
-    	switchHeader();
+    	switchHeader();	
     });
 })
 
