@@ -4,13 +4,36 @@
 
 #links .content {
 	height: 100%;
-	background-color: #6DC36C;
+	background-color: white;
 	background-position: center;
+	display: table;
+}
+
+#links .content .tcell {
+	display: table-cell;
+	height: 100%;
+	width: 100%;
+	vertical-align: middle;
+	text-align: center;
 }
 
 #links .content .links-content {
-	width: 100%;
-	padding-top: 200px;
+	width: 60%;
+	margin-left: 20%;
+	height: 60%;
+	background-color: #FF7100;
+	display: table;
+}
+
+#links .content .links-content .links-content-tcell {
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	font-size: 40px;
+}
+
+#links .content .links-content .links-content-tcell p {
+	margin: 20px 0px;
 }
 
 #links .content .links-content .link-img {

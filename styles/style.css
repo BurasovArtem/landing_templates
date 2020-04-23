@@ -47,6 +47,7 @@ a {
 	cursor: pointer;
 	transition: 1s;
 	position: relative;
+	overflow: hidden;
 }
 
 	.button:before, .button:after {
