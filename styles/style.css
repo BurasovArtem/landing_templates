@@ -102,5 +102,47 @@ a {
 }
 
 @media screen and (max-width: 1200px) {
-	
+	.page {
+		height: auto;
+		width: 100%;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	#main .view .title .button {
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+
+	header ul li {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#main .view .title .title-text {
+		height: 40vh !important;	
+	}
+
+	.description-card {
+		margin-top: -50px !important;
+	}
+
+	.title-card {
+		margin-top: -75px !important;
+	}
+
+	#main .view .title .button {
+		margin-bottom: 70px;
+	}
+
+	.description-button {
+		margin-bottom: 90px !important;
+	}
+
+	.main-button {
+		margin-top: -30px !important;
+	}
 }
