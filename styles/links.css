@@ -4,25 +4,20 @@
 
 #links .content {
 	height: 100%;
-	background-color: white;
+	background-color: #02ACC9;
 	background-position: center;
 	display: table;
-}
-
-#links .content .tcell {
-	display: table-cell;
-	height: 100%;
-	width: 100%;
-	vertical-align: middle;
-	text-align: center;
 }
 
 #links .content .links-content {
 	width: 60%;
 	margin-left: 20%;
 	height: 60%;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	background-color: #FF7100;
 	display: table;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 #links .content .links-content .links-content-tcell {

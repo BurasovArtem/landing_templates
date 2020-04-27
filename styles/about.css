@@ -61,3 +61,23 @@
 	font-size: 20px;
 	margin: 20px;
 }
+
+.description-button {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.description-card {
+	width: 35%;
+	height: auto;
+	background-color: #6DC36C;
+	border: 4px solid black;
+	margin-top: -25px;
+	margin-left: 7%;
+	margin-bottom: 30px;
+	font-size: 30px;
+	text-align: left;
+	font-family: 'Press Start 2P', cursive;
+	line-height: 50px;
+	padding-left: 10px;
+}
