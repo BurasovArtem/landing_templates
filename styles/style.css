@@ -119,6 +119,7 @@ a {
 @media screen and (max-width: 1000px) {
 	#schel .content .schedule-container .sch-title {
 		margin-top: -25px !important;
+		width: 35% !important;
 	}
 	#main .view .title .title-text {
 		height: 40vh !important;
@@ -145,5 +146,11 @@ a {
 
 	#links .content .links-content {
 		margin-top: 50px !important;
+	}
+}
+
+@media screen and (min-width: 1200px)  {
+	#schel .content .schedule-container .sch-title {
+		margin-top: -370px !important;
 	}
 }
