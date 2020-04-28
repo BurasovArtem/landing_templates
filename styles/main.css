@@ -16,10 +16,11 @@
 }
 
 #main .view .title .title-text {
+	margin-top: 20px;
 	width: 100%;
 	height: 72vh;
 	background-image: url(images/cassete.svg);
-	background-size: 100%;
+	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;

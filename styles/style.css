@@ -103,6 +103,7 @@ a {
 @media screen and (max-width: 1200px) {
 	.page {
 		width: 100%;
+		height: auto !important;
 	}
 
 	.content {
@@ -116,16 +117,12 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
-	.page {
-		width: 100%;
-		height: auto !important;
+	#schel .content .schedule-container .sch-title {
+		margin-top: -25px !important;
 	}
-
-
 	#main .view .title .title-text {
-		height: 40vh !important;	
+		height: 40vh !important;
 	}
-
 	.description-card {
 		margin-top: -50px !important;
 	}

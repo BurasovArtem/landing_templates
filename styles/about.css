@@ -42,9 +42,15 @@
 	border-radius: 10px 10px;
 }
 
-#about .content .description .what { background-image: url(images/card_01.jpg); }
-#about .content .description .who { background-image: url(images/card_02.jpg); }
-#about .content .description .how { background-image: url(images/card_03.jpg); }
+#about .content .description .what { 
+	background-image: url(images/card_01.jpg); 
+}
+#about .content .description .who { 
+	background-image: url(images/card_02.jpg); 
+}
+#about .content .description .how { 
+	background-image: url(images/card_03.jpg); 
+}
 
 #about .content .description .description-block {
 	background-color: white;
@@ -68,7 +74,7 @@
 
 .description-button {
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 }
 
 .description-card {
