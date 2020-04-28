@@ -2,6 +2,10 @@
 	background-color: rgba(0,0,0,0);
 }
 
+.howto-page {
+	height: auto;
+}
+
 #howto .content {
 	display: table;
 	height: 100%;
@@ -18,7 +22,7 @@
 	border-spacing: 50px 15px;
 	table-layout: fixed;
 	width: 100%;
-	margin: 40px 0зч;
+	margin: 40px 0;
 }
 
 #howto .content .howto-container table td {
@@ -27,10 +31,6 @@
 
 #howto .content .howto-container table .step-card {
 	width: 100%;
-}
-
-.howto-button {
-	margin-top: 50px;
 }
 
 .title-card {

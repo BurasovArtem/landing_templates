@@ -24,13 +24,12 @@ a {
 }
 
 .page {
-	height: 100vh;
+	height: calc(100vh - var(--header-height));
 	width: 100%;
 }
 
-.other-page {
-	width: 100%;
-	height: auto;
+.page:first-of-type {
+	height: 100vh;
 }
 
 .content {
@@ -103,7 +102,6 @@ a {
 
 @media screen and (max-width: 1200px) {
 	.page {
-		height: auto;
 		width: 100%;
 	}
 
@@ -115,13 +113,15 @@ a {
 		margin-top: 10px;
 		margin-bottom: 40px;
 	}
-
-	header ul li {
-		font-size: 20px;
-	}
 }
 
 @media screen and (max-width: 1000px) {
+	.page {
+		width: 100%;
+		height: auto !important;
+	}
+
+
 	#main .view .title .title-text {
 		height: 40vh !important;	
 	}
@@ -144,5 +144,9 @@ a {
 
 	.main-button {
 		margin-top: -30px !important;
+	}
+
+	#links .content .links-content {
+		margin-top: 50px !important;
 	}
 }
