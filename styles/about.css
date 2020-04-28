@@ -1,11 +1,6 @@
 #about {
 	background-color: rgba(0,0,0,0);
 }
-
-.about-page {
-	height: auto;
-}
-
 #about .content {
 	display: table;
 	height: 100%;
@@ -17,66 +12,124 @@
 	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
-
-}
-#about .description-content {
-	display: table; 
-	width: 100%;
-	border-spacing: 50px 10px;
-	table-layout: fixed;
-}
-#about .description-content .row {
-	display: table-row;
-	width: 30%;
 }
 
-#about .content .description .description-block, #about .content .description .description-image {
-	display: table-cell;
+#about .content .description .what { background-image: url(images/card_01.jpg); }
+#about .content .description .who  { background-image: url(images/card_02.jpg); }
+#about .content .description .how  { background-image: url(images/card_03.jpg); }
+@media only screen and (min-width: 1367px) {
+    /* styles for browsers larger than 1367px; */
+  	.about-page {
+		height: auto;
+	}
+	
+	#about .description-content {
+		display: table; 
+		width: 100%;
+		border-spacing: 50px 10px;
+		table-layout: fixed;
+	}
+	#about .description-content .row {
+		display: table-row;
+		width: 30%;
+	}
+
+	#about .content .description .description-block, #about .content .description .description-image {
+		display: table-cell;
+	}
+
+	#about .content .description .description-image {
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		display: table-cell;
+		vertical-align: middle;
+		border-radius: 10px 10px;
+	}
+
+	#about .content .description .description-block {
+		background-color: white;
+		text-align: center;
+		border: 4px solid #012A38;
+		height: 230px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.description-title {
+		font-weight: bold;
+		font-size: 30px;
+		padding: 10px 20px;
+	}
+
+	.description-text {
+		font-size: 20px;
+		margin: 20px;
+	}
+
+	.description-button {
+		margin-top: 30px;
+		margin-bottom: 60px;
+	}
 }
 
-#about .content .description .description-image {
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-	display: table-cell;
-	vertical-align: middle;
-	border-radius: 10px 10px;
+@media only screen and (max-width: 1366px) {
+	.about-page {
+		height: calc(100vh - var(--header-height));
+	}
+	#about .description-content {
+		width: 100%;
+		height: 80%;
+	}
+	#about .description-content .row {
+		position: relative;
+		width: 100%;
+		height: 30%;
+		margin: 1% 0px;
+	}
+
+	#about .content .description .description-block, #about .content .description .description-image {
+		display: inline-block;
+		height: 150px;
+		position: absolute;
+		top: 0px;
+	}
+
+	#about .content .description .description-image {
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		width: 230px;
+		border-radius: 10px 10px;
+	}
+
+	#about .content .description .description-block {
+		background-color: white;
+		text-align: center;
+		border: 4px solid #012A38;
+		height: 150px; /*230px*/
+		width: 70%;
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	#about .content .description .description-image:nth-child(even) {right: 2%;}
+	#about .content .description .description-image:nth-child(odd)  {left: 2%;}
+
+	#about .content .description .description-block:nth-child(even) {right: 5%;}
+	#about .content .description .description-block:nth-child(odd)  {left: 5%;}
+
+	.description-title {
+		font-weight: bold;
+		font-size: 30px;
+		padding: 10px 20px;
+	}
+
+	.description-text {
+		font-size: 20px;
+		margin: 20px;
+	}
 }
 
-#about .content .description .what { 
-	background-image: url(images/card_01.jpg); 
-}
-#about .content .description .who { 
-	background-image: url(images/card_02.jpg); 
-}
-#about .content .description .how { 
-	background-image: url(images/card_03.jpg); 
-}
-
-#about .content .description .description-block {
-	background-color: white;
-	text-align: center;
-	border: 4px solid #012A38;
-	height: 230px;
-	display: table-cell;
-	vertical-align: middle;
-}
-
-.description-title {
-	font-weight: bold;
-	font-size: 30px;
-	padding: 10px 20px;
-}
-
-.description-text {
-	font-size: 20px;
-	margin: 20px;
-}
-
-.description-button {
-	margin-top: 30px;
-	margin-bottom: 60px;
-}
-
+/*Artemka*/
 .description-card {
 	width: 35%;
 	height: auto;
