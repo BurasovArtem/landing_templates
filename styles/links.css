@@ -4,7 +4,7 @@
 
 #links .content {
 	height: 100%;
-	background-color: #02ACC9;
+	background-color: #D8D8D8;
 	background-position: center;
 	display: table;
 }
@@ -13,7 +13,7 @@
 	width: 60%;
 	margin-left: 20%;
 	height: 60%;
-	margin-top: 120px;
+	margin-top: 15%;
 	margin-bottom: 50px;
 	background-color: #FF7100;
 	display: table;
