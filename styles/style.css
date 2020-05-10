@@ -106,10 +106,6 @@ a {
 		height: auto !important;
 	}
 
-	.about-page {
-		height: auto !important;
-	}
-
 	.content {
 		width: 100%;
 	}
@@ -120,6 +116,12 @@ a {
 	}
 	#schel .content .schedule-container .sch-title {
 		margin-top: 20px !important;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.about-page {
+		height: auto !important;
 	}
 }
 
